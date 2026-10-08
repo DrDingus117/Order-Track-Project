@@ -92,3 +92,20 @@ class OrderQueue {
     
 }
 
+const orderHistory = new OrderHistoryStack();
+console.log(orderHistory, orderHistory.items);
+console.log(orderHistory, orderHistory.size());
+console.log(orderHistory, orderHistory.isEmpty());
+console.log(orderHistory, orderHistory.view());
+console.log(orderHistory, orderHistory.pop());
+
+
+
+
+
+const orderQueue = new OrderQueue(5);
+console.log(orderQueue, orderQueue.items);
+console.log(orderQueue, orderQueue.size());
+console.log(orderQueue, orderQueue.isEmpty());
+console.log(orderQueue, orderQueue.isFull());
+
